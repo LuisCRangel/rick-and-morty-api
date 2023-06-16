@@ -21,7 +21,7 @@ const [inputLocation, setInputLocation] = useState(randomId)
   return (
     <div className='app'>
    <header>
-    <img src="../public/rm1.jpg" alt="" />
+    <img src="/rm1.jpg" alt="" />
     </header> 
     <LocationInput setInputLocation={setInputLocation}/>
     {
